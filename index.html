@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El rincón de Iván</title>
+        <link rel="shortcut icon" href="images/icon.png">
+        <link rel="preload" href="images/fondo.png" as="image">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container" >
+            <h1>Iván's Web Page</h1>
+
+            <!-- Gif Yisus -->
+            <img src="images/jesus.gif" class="imagenJesus">
+
+            <!-- Imagen Sol y Widget Tiempo-->
+            <img src="images/sol.png" id="imagenSol">
+            <iframe id="tiempo" src="tiempo.html" style="display: none"></iframe>
+
+            <!-- Imagen Notas -->
+            <img src="images/notas.png" id="imagenNotas">
+            <textarea id="textArea" style="display: none"></textarea>
+
+            <!-- Gif gato -->
+            <a href="https://www.google.com/search?sca_esv=564652075&q=gatitos&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0iJGa76SBAxU8TKQEHYO7Dj4Q0pQJegQIChAB&biw=1920&bih=963" target="_self">
+                <img src="images/cat.webp" class="gifGato">
+            </a>
+
+            <div class="lock" id="lock"></div>
+            <button class="add-btn" id="addBtn">+</button>
+            <button class="remove-btn" id="removeBtn" style="display: none;">-</button>
+            <div class="save-btn" id="saveBtn"></div>
+            <button class="import-btn" id="importBtn" style="display: none;">Importar</button>
+            <button class="export-btn" id="exportBtn" style="display: none;">Exportar</button>
+            <div class="elements-container" id="elementsContainer"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
